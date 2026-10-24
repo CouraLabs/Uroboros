@@ -1,0 +1,20 @@
+{
+  "name": "uroboros",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "packageManager": "bun@1.2.23",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "turbo": "^2"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  }
+}
