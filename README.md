@@ -97,4 +97,4 @@ This repository is built agent-first, and the same rules hold for humans:
 
 ## License
 
-No license has been chosen yet; a decision ships before v1. Until then, all rights reserved by the authors.
+Uroboros is licensed under the [Apache License 2.0](LICENSE).
