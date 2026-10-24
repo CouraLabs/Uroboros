@@ -1,0 +1,3 @@
+# AI SDK engine + Angular v22 dashboard client, screens spec-first
+
+The agent engine (loop, tools, MCP clients, run orchestration) is built on Vercel AI SDK v5 on the server; it exposes REST + SSE, not framework-coupled streaming UIs. The web app is an Angular v22 dashboard client consuming those APIs — AI SDK UI has no official Angular binding, and binding the dashboard to one framework's streaming primitives would couple the engine to it. For now the Angular app exists as a written spec of its screens (Projects, Run Timeline, Insights, Pending Review) and flows (Connect, Setup, Settings); implementation starts after the backend loop works.
